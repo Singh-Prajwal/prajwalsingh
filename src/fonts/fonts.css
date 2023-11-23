@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Valencia";
+  src: local("Valencia"), url("./Valencia.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PrimeCentury";
+  src: local("PrimeCentury"),
+    url("./DemoPrimeCenturySans\ 400.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

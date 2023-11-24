@@ -1,5 +1,5 @@
 import "./App.css"
-import { HashRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import NavigationBar from "./components/navigation-bar"
 import Work from "./components/work"
 import About from "./components/about"
@@ -9,14 +9,14 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <HashRouter basename="/prajwalsingh">
+      <BrowserRouter basename="/prajwalsingh">
         <Routes>
           <Route path="/" element={<Root />} />
-          <Route path="/prajwalsingh/contact" element={<Contact />} />
-          <Route path="/prajwalsingh/about" element={<About />} />
-          <Route path="/prajwalsingh/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Work />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
 }

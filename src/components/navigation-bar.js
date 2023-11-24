@@ -72,7 +72,7 @@ function NavigationBar({ className }) {
       <Modal show={isNavOpen} onHide={handleCloseNav} animation={false}>
         <Modal.Header closeButton>
           <Modal.Title>
-            <a href="/" className="link prime-text">
+            <a href="/prajwalsingh/" className="link prime-text">
               Prajwal's Portfolio
             </a>
           </Modal.Title>

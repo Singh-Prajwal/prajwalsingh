@@ -9,7 +9,8 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <BrowserRouter basename="/prajwalsingh">
+      <BrowserRouter>
+        {/* basename="/prajwalsingh"> */}
         <Routes>
           <Route path="/" element={<Root />} />
           <Route path="/contact" element={<Contact />} />

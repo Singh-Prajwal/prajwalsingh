@@ -99,6 +99,14 @@
   color: #282c34;
   text-decoration: none !important;
 }
+.link-i {
+  color: #282c34;
+  text-decoration: none !important;
+}
+.link-i:hover {
+  color: #282c34;
+  text-decoration: underline!important;
+}
 .logo {
   border-radius: 10px;
   width: 100px;
@@ -110,6 +118,9 @@
 }
 .valencia-heading {
   font-size: 100px;
+  font-family: Valencia;
+}
+.valencia{
   font-family: Valencia;
 }
 .prime-text {

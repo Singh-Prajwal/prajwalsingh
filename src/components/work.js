@@ -1,24 +1,20 @@
-import {  Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import styled from "styled-components"
 import "../App.css"
+import ProjectDetails from "../components/project-detail"
 function Work() {
   return (
     <div>
       <Container className="">
-        <Row className="mt-3 ">
+        <Row className="mt-5 ">
           <Col>
-            <span>
-              <p className="m-auto">
-                Hi, I am prajwal currently working as full stack developer. My
-                core skills are clean code, problem solving, algorithms. <br />
-                This portfolio app is created with reactjs & nodejs and is still
-                in development, feel free to explore.
-                <br />
-                <strong>Thanks! for visiting the app.</strong>
-              </p>
-            </span>
+            <p className="mb-3 fs-1 prime-text">Projects:</p>
+            <h2 className="valencia">
+              Each project is developed for a unique purpose.
+            </h2>
           </Col>
         </Row>
+        <ProjectDetails />
       </Container>
     </div>
   )

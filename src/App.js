@@ -4,6 +4,7 @@ import NavigationBar from "./components/navigation-bar"
 import Work from "./components/work"
 import About from "./components/about"
 import Contact from "./components/contact"
+import Notfound from "./components/notfound"
 import Root from "./components/root"
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/work" element={<Work />} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
       </BrowserRouter>
     </div>

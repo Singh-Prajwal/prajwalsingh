@@ -12,14 +12,14 @@ function Contact() {
         </Row>
         <Row className=" mb-3 m-auto ">
           <Col>
-            <div className="prime-text large d-flex justify-content-center">
+            <div className="open-sans large d-flex justify-content-center">
               Don't be shy! hit me up! 👇
             </div>
           </Col>
         </Row>
         <Row className="m-auto d-flex justify-content-center align-items-center">
           <Col className="d-flex mb-2" sm={2}>
-            <span className="justify-content-center large-text prime-text me-2">
+            <span className="justify-content-center large-text open-sans me-2">
               LinkedIn :
             </span>
             <span className="cursor link justify-content-center  link">
@@ -36,7 +36,7 @@ function Contact() {
             </span>
           </Col>
           <Col className="d-flex mb-2" sm={2}>
-            <span className="justify-content-center prime-text large-text me-2">
+            <span className="justify-content-center open-sans large-text me-2">
               Github :
             </span>
             <span className="justify-content-center link">
@@ -50,7 +50,7 @@ function Contact() {
             </span>
           </Col>
           <Col className="d-flex mb-2" sm={1}>
-            <span className="justify-content-center prime-text large-text me-2">
+            <span className="justify-content-center open-sans large-text me-2">
               Email's:
             </span>
             <span className="justify-content-center link">

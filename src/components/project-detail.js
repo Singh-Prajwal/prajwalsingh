@@ -11,7 +11,7 @@ function ProjectDetails({ className }) {
         <Row className="project-details">
           <Col sm={12} md={7}>
             <div className="project-description">
-              <h2 className="prime-text">
+              <h2 className="open-sans">
                 <Link
                   className="link-i fs-3"
                   target="_blank"
@@ -21,7 +21,7 @@ function ProjectDetails({ className }) {
                 </Link>
                 (Nov-23)
               </h2>
-              <p className="prime-text">
+              <p className="open-sans">
                 This project is built using the React framework and RESTful
                 APIs. The app shows cryptocurrency prices and percentage changes
                 in the market, helping in tracking their values.
@@ -79,7 +79,7 @@ export default styled(ProjectDetails)`
     padding: 20px;
   }
 
-  .prime-text {
+  .open-sans {
     font-size: 1.5rem;
   }
 

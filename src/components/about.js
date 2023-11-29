@@ -54,13 +54,13 @@ function About({ className }) {
           <Col className="mt-3">
             <div>
               <AvatarContainer>
-                <p className="prime-text large">Prajwal Singh </p>
+                <p className="open-sans large fw-bold">Prajwal Singh </p>
                 <img
                   className="profile-logo "
                   src="./anime.png"
                   alt="Avatar"
                 ></img>
-                <label className="prime-text medium">My Avatar</label>
+                <label className="open-sans medium">My Avatar</label>
               </AvatarContainer>
             </div>
           </Col>
@@ -71,7 +71,7 @@ function About({ className }) {
               <span className="salute me-4">Hi,</span>
               <img src="./hi.jpg" className="mb-5 profile-logo shake"></img>
               <br />
-              <span className="prime-text large">
+              <span className="open-sans large">
                 I am Prajwal, a passionate full stack developer based in Delhi,
                 India. My core skills are clean code, problem-solving,
                 algorithms, tech adaption. <br />
@@ -86,31 +86,33 @@ function About({ className }) {
         <Row className="justify-content-center mt-4 mb-3 ">
           <Col
             sm={12}
-            className="prime-text fw-bold d-flex justify-content-center large"
+            className="open-sans fw-bold d-flex justify-content-center large"
           >
             Tech Stack:
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Col sm={4} className=" d-flex justify-content-center">
+          <Col sm={3} className=" d-flex justify-content-center">
             <img className="tech-icon" src="./html-5.png" alt="HTML5"></img>
             <img className="tech-icon" src="./css-3.png" alt="CSS3"></img>
           </Col>
-          <Col sm={4} className=" d-flex justify-content-center">
+          <Col sm={3} className=" d-flex justify-content-center">
             <img className="tech-icon" src="./js.png" alt="JavaScript"></img>
             <img
               className="tech-icon"
               src="./typescript.png"
               alt="TypeScript"
             ></img>
+          </Col>
+          <Col sm={3} className=" d-flex justify-content-center">
             <img
               className="tech-icon"
               src="./python.png"
               alt="JavaScript"
             ></img>
-          </Col>
-          <Col sm={4} className=" d-flex justify-content-center">
             <img className="tech-icon" src="./react.png" alt="React"></img>
+          </Col>
+          <Col sm={3} className=" d-flex justify-content-center">
             <img className="tech-icon" src="./nodejs.png" alt="Node.js"></img>
             <img className="tech-icon" src="./express.png" alt="Node.js"></img>
           </Col>
@@ -147,15 +149,17 @@ export default styled(About)`
   }
 
   @media (max-width: 768px) {
-    .prime-text.large {
+    .open-sans.large {
       font-size: 24px;
     }
-    .prime-text.medium {
+    .open-sans.medium {
       font-size: 18px;
     }
     .tech-icon {
       height: 40px;
       margin-bottom: 8px;
+      margin-right:10px;
+      margin-left:10px;
     }
   }
 `

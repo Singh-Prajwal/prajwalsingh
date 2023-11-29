@@ -20,7 +20,7 @@ function NavigationBar({ className }) {
           <div className="nav-logo p-0 m-0">
             <a href="/" className="link">
               <img
-                src=".\logo.png"
+                src=".\logo2.png"
                 width="100"
                 className="logo"
                 height="60"
@@ -43,7 +43,7 @@ function NavigationBar({ className }) {
           <Navbar.Text>
             <div className="me-5 nav-element">
               <a href="/contact" className="link">
-                <span className="text-white large prime-text ">
+                <span className="text-white large open-sans fw-bold">
                   <p className="m-0">Contact</p>
                 </span>
               </a>
@@ -52,7 +52,7 @@ function NavigationBar({ className }) {
           <Navbar.Text>
             <div className="me-5 nav-element">
               <a href="/about" className="link">
-                <span className="text-white large prime-text ">
+                <span className="text-white large open-sans fw-bold">
                   <p className="m-0">About</p>
                 </span>
               </a>
@@ -61,7 +61,7 @@ function NavigationBar({ className }) {
           <Navbar.Text>
             <div className="nav-element">
               <a href="/work" className="link">
-                <span className="text-white large prime-text ">
+                <span className="text-white large open-sans fw-bold">
                   <p className="m-0">Works</p>
                 </span>
               </a>
@@ -72,19 +72,19 @@ function NavigationBar({ className }) {
       <Modal show={isNavOpen} onHide={handleCloseNav} animation={false}>
         <Modal.Header closeButton>
           <Modal.Title>
-            <a href="/prajwalsingh/" className="link prime-text">
+            <a href="/" className="link open-sans">
               Prajwal's Portfolio
             </a>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Nav.Link className="prime-text" href="/contact">
+          <Nav.Link className="open-sans" href="/contact">
             Contact
           </Nav.Link>
-          <Nav.Link href="/about" className="prime-text">
+          <Nav.Link href="/about" className="open-sans">
             About
           </Nav.Link>
-          <Nav.Link className="prime-text" href="/work">
+          <Nav.Link className="open-sans" href="/work">
             Works
           </Nav.Link>
         </Modal.Body>
@@ -95,7 +95,9 @@ function NavigationBar({ className }) {
 
 export default styled(NavigationBar)`
   .logo {
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 0.2rem;
+    background: #080808;
   }
 
   @media (max-width: 575px) {

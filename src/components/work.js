@@ -8,10 +8,10 @@ function Work() {
       <Container className="">
         <Row className="mt-5 ">
           <Col>
-            <p className="mb-3 fs-1 prime-text">Projects:</p>
-            <h2 className="valencia">
+            <p className="mb-3 fs-1 open-sans fw-bold">Projects:</p>
+            <h3 className="open-sans fw-bold">
               Each project is developed for a unique purpose.
-            </h2>
+            </h3>
           </Col>
         </Row>
         <ProjectDetails />

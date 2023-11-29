@@ -5,9 +5,9 @@ function Contact() {
   return (
     <div>
       <Container className="m-auto">
-        <Row className="mt-5 ">
-          <Col>
-            <div className="valencia-heading">Contact details:</div>
+        <Row className="mt-5 justify-content-center">
+          <Col sm={4} className="d-flex justify-content-center">
+            <div className="fs-1 mb-3 open-sans fw-bold">Contact details:</div>
           </Col>
         </Row>
         <Row className=" mb-3 m-auto ">
